@@ -1,0 +1,19 @@
+FOR BACKEND
+
+- .env   
+MONGO_URI = mongodb+srv://pneel2272:kQUzqI7oOcoo7TAw@cluster0.mejqg7e.mongodb.net
+
+JWT_SECRET = 'somesupperhardtext'
+
+PORT = 3001
+
+- npm i
+
+- npm start
+
+
+
+FOR FRONTEND
+
+- npm i
+- npm start
