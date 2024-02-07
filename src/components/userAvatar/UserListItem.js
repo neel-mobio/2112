@@ -81,7 +81,7 @@ const UserListItem = ({ users, handleFunction }) => {
         <Text>{users?.name}</Text>
         <Text fontSize="xs">
           <b>Email : </b>
-          {users.email}
+          {users?.email}
         </Text>
       </Box>
       <Button onClick={sendRequest}>Send Request</Button>

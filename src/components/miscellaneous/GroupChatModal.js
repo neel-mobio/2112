@@ -174,7 +174,7 @@ const GroupChatModal = ({ children }) => {
                 .map((user) => (
                   <UserListItem
                     key={user._id}
-                    user={user}
+                    users={user}
                     handleFunction={() => handleGroup(user)}
                   />
                 ))
